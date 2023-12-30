@@ -2,10 +2,10 @@
 
     on: 
       push: 
-        paths: 
+        #paths: 
           # Do not run workflow unless these files were modified
-          - 'assignment.py' 
-          - 'test_assignment.py' 
+        #  - 'assignment.py' 
+        #  - 'test_assignment.py' 
 
     jobs:
       build:
